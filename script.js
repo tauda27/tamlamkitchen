@@ -6,8 +6,10 @@
     onclick: adds an event to any object
 
     */
-
-    document.getElementById("music").onclick = function(){
+    document.getElementById("som").onclick = function(){
+        document.getElementById("displayImage").src ="soundofmusic.jpeg"; 
+    }
+        document.getElementById("music").onclick = function(){
         document.getElementById("displayImage").src ="images/music notes.jpeg"; 
     }
 

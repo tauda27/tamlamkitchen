@@ -121,3 +121,6 @@ form{
     padding: 4rem;
     justify-content: space-evenly;
 }
+#favoriteThingsPicture img{
+    max-width: 300px;
+}
