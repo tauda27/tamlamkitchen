@@ -115,3 +115,9 @@ form{
     font-size: 0.95em;
     max-width: 500px;
 }
+
+#favoriteThingsParent{
+    display: flex; 
+    padding: 4rem;
+    justify-content: space-evenly;
+}
