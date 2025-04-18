@@ -1,0 +1,117 @@
+
+/* Browser Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* General page styles
+ */
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: #EFD0CA;
+color: #5C7457;
+}
+/* 
+    Use CTRL+ / to insert a comment on anything in VS Code, python 
+    Use a comma to style multiple selectors
+    Measurements: 
+    rem/em  **use this one - Measured as a default font size for the page for the device
+    in  inches (but be careful if someone is looking at your website on your phone)
+    cm  centimeters
+    px  pixels (*Tiny, based on the resolution of the page)
+    pt  font types
+
+*/
+header, footer{
+    background-color: #5C7457;
+    color:#c1bcac;
+    padding: 1.5rem;
+    text-align: center;
+    text-shadow: black, 2px 5px 2px;
+}
+/* The dot means that this is a coder defined class.  We use it in the html class= whatever the name is in the  document*/
+.emphasis{
+    color: #3a4836;
+    font-size: 1.5em;
+}
+p, ul{
+    margin: .5em;
+}
+/* Padding or Margin: Don't get into TRBL (Top right, bottom, left) */
+li{
+    margin: .5em .5em .1em .52em;
+    padding: .2em .5em;
+}
+
+main{
+    padding: 1rem;
+    max-width: 35rem;
+    margin: auto;
+}
+
+/*  Use a space when you need to select based upon a container*/
+nav ul{
+    list-style-type: none;
+    display: inline-block; 
+}
+
+/* Nav styles */
+nav ul li{
+    display: inline-block;
+    padding: .5em;
+}
+
+nav a{
+    text-decoration: none;
+}
+/* a Pseudo class is a class that styles a portion of the element */
+
+nav a:hover{
+    text-decoration: underline;
+    color:#c1bcac; 
+}
+
+/* Table Styles */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th {
+    background-color: #e7a6a6;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+thead th{
+    border: 2px solid black;
+    width: 25%;
+}
+tbody th, td{
+    border: 1px solid purple;
+}
+tfoot{
+    border: 2px solid rgb(57, 74, 77);
+}
+
+
+/* Form Styles */
+form{
+    background-color: #f8eeec;
+    padding: 1em;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+    font-size: 0.95em;
+    max-width: 500px;
+}
