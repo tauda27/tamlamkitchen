@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.PNG" alt="Logo" width="200">
+        </div>
+        <ul class="nav-links">
+      
+          <li><h3><a href="main.html">Cooking Classes</a></h3></li>
+          <li><h3><a href="family.html">Prices</a></h3></li>
+          <li><h3><a href="career.html">A la carte</a></h3></li>
+          <li><h3><a href="aboutme.html">About</a></h3></li>
+          <li><h3><a href="contact.html">Contact</a></h3></li>
+          
+        </ul>
+      </nav>
+<header><h1>Contact</h1></header>
+<hr>
+<p><h3>Have Questions?</h3></p>
+<p>Feel free to reach out - I'm happy to help.  Use the form below or email me directly at <h5>tamlamkitchen@gmail.com</h5>.</p>
+<main>
+    <form>
+        <label for="name">First Name:</label><br>
+        <input type="text" id="Fname" name="Fname" required><br>
+
+        <label for="name">Last Name:</label><br>
+        <input type="text" id="Lname" name="Lname" required><br>
+       
+        <label for="email">Email:</label><br>
+        <input type="email" id ="email" name="email" required><br>
+        
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"> 
+
+       <br>
+       <br> <label for="prefContact">Preferred Contact Method</label><br>
+        <div class="preferredcontact">
+            <label><input type="radio" name = "prefContact" checked>Email</label><br>
+            <label><input type="radio" name = "prefContact">Phone</label><br>
+        </div>
+
+        <br>
+        <label for="Comments">Comments:</label><br>
+        <textarea name="Comments" id="comments" rows="8" cols="40"></textarea>
+        <br><br><button type="submit" id="Sbutton" value="Submit" onclick="alert('Thank you! I will get back to you shortly!')">Submit</button>
+        
+    </form>
+
+
+</main>
+<footer><p>&copy; 2025 All Rights Reserved</p></footer>
+</body>
+</html>
+
