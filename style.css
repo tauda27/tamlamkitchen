@@ -279,14 +279,4 @@ form{
     max-width: 700px;
 }
 
-input[type=submit] {
-    width: 59%;
-    background-color: #6e1f1f;
-    color:#6e1f1f;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-    
+ 
